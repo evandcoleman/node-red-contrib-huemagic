@@ -81,10 +81,11 @@
                     // SET SWITCHES AS OPTIONS
                     hueSwitches.forEach(function(sensor)
                     {
-                        if(sensor.model == "Hue Wireless Dimmer Switch")
-                        {
+                        // console.log(sensor);
+                        // if(sensor.model == "Hue Wireless Dimmer Switch")
+                        // {
                             $('#node-input-sensorid').append('<option value="' + sensor.id + '">' + sensor.name + '</option>');
-                        }
+                        // }
                     });
 
                     // SELECT CURRENT VALUE
